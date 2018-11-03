@@ -96,6 +96,19 @@ namespace NET_Core_Training.Models
             UpdateProperty();
         }
 
+        public void PurchaseOrder(Order order)
+        {
+            if(!IsActive)
+            {
+                throw new Exception("Only active user can purchase an order.");
+            }
+            if(order.TotalPrice>Founds)
+            {
+                throw new Exception("You don't have enough money.");
+            }
+            order.Pucharse();
+            Founds-=order.TotalPrice;
+        }
         private void UpdateProperty()
         {
             UpdateAt = DateTime.Now;

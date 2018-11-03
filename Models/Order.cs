@@ -7,7 +7,7 @@ namespace NET_Core_Training.Models
         public int Id { get; private set; }
         public decimal Price { get; private set; }
         public decimal TaxRate { get; } = 0.23M;
-        public decimal TotalPrice { get { return Price * (1 + TaxRate); } }
+        public decimal TotalPrice { get { return Price * (1+TaxRate); } }
         public bool IsPucharsed { get; private set; }
 
         public Order (int id, decimal price )
