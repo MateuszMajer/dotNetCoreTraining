@@ -18,7 +18,7 @@ namespace NET_Core_Training.Models
         {
             SetEmail(email);
             SetPassword(password);
-            CreatedAt=DateTime.UtcNow;
+            CreatedAt=DateTime.Now;
         }
 
         private void SetEmail(string email)
@@ -98,7 +98,7 @@ namespace NET_Core_Training.Models
 
         private void UpdateProperty()
         {
-            UpdateAt = DateTime.UtcNow;
+            UpdateAt = DateTime.Now;
         }
     }
 }
