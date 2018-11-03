@@ -1,4 +1,5 @@
 ﻿using System;
+using NET_Core_Training.Models;
 
 namespace NET_Core_Training
 {
@@ -6,8 +7,8 @@ namespace NET_Core_Training
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" ");
-            Console.ReadLine();
+            User user = new User("mateusz@majer.pl","123456789");
+            Console.WriteLine(user.Email+" "+user.CreatedAt);
         }
     }
 }
