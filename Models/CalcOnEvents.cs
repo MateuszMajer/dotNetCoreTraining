@@ -1,33 +1,37 @@
+using System;
+
 namespace NET_Core_Training.Models
 {
     public class CalcOnEvents
     {
-        public delegate double DCalc(int FirstValue, int SecondValue);
-        public event DCalc CalcEvent;
-
+        public EventHandler<SettingsEventArgs> EventHandler;
         public void ExecuteEvent()
         {
-            CalcEvent?.Invoke(1, 3);
+            EventHandler?.Invoke(this, new SettingsEventArgs(20, 10));
+        }
+    }
+
+    public class SettingsEventArgs:EventArgs
+    {
+        public int FirstValue { get; }
+        public int SecondValue { get; }
+        public SettingsEventArgs(int FirstV, int SecondV)
+        {
+            FirstValue=FirstV;
+            SecondValue=SecondV;
         }
     }
 
     public class CalcOperations
     {
-        public int AddValues(int FirstValue, int SecondValue)
+        public void CreateEvent()
         {
-            return FirstValue+SecondValue;
-        }
-        public int SubValues(int FirstValue, int SecondValue)
-        {
-            return FirstValue-SecondValue;
-        }
-        public int MulValues(int FirstValue, int SecondValue)
-        {
-            return FirstValue*SecondValue;
-        }
-        public int DivValues(int FirstValue, int SecondValue)
-        {
-            return FirstValue/SecondValue;
+            var CalcOnEvents = new CalcOnEvents();
+            CalcOnEvents.EventHandler += (s, e) => { Console.WriteLine($"Wynik dodawania: {e.FirstValue + e.SecondValue}."); };
+            CalcOnEvents.EventHandler += (s, e) => { Console.WriteLine($"Wynik odejmowania: {e.FirstValue - e.SecondValue}."); };
+            CalcOnEvents.EventHandler += (s, e) => { Console.WriteLine($"Wynik mnożenia: {e.FirstValue * e.SecondValue}."); };
+            CalcOnEvents.EventHandler += (s, e) => { Console.WriteLine($"Wynik dzielenia: {e.FirstValue / (double)e.SecondValue}."); };
+            CalcOnEvents.ExecuteEvent();
         }
     }
 }

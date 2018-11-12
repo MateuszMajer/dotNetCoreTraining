@@ -7,10 +7,8 @@ namespace NET_Core_Training
     {
         static void Main(string[] args)
         {
-          FunctionalSandbox test=new FunctionalSandbox();
-          test.Test();
-          
-
+            CalcOperations CalcOperations = new CalcOperations();
+            CalcOperations.CreateEvent();
         }
     }
 }
