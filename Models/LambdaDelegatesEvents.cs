@@ -1,7 +1,7 @@
 using System;
 using System.Threading;
 
-namespace NET_Core_Training.Models
+namespace dotNetCore.Models
 {
 
 public class Events
