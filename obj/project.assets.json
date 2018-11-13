@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SysAdmin\\VisualStudioProjects\\NET Core Training\\NET Core Training\\NET Core Training.csproj",
+      "projectUniqueName": "c:\\Users\\SysAdmin\\VisualStudioProjects\\NET Core Training\\NET Core Training\\NET Core Training.csproj",
       "projectName": "NET Core Training",
-      "projectPath": "C:\\Users\\SysAdmin\\VisualStudioProjects\\NET Core Training\\NET Core Training\\NET Core Training.csproj",
+      "projectPath": "c:\\Users\\SysAdmin\\VisualStudioProjects\\NET Core Training\\NET Core Training\\NET Core Training.csproj",
       "packagesPath": "C:\\Users\\SysAdmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SysAdmin\\VisualStudioProjects\\NET Core Training\\NET Core Training\\obj\\",
+      "outputPath": "c:\\Users\\SysAdmin\\VisualStudioProjects\\NET Core Training\\NET Core Training\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

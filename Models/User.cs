@@ -1,6 +1,6 @@
 using System;
 
-namespace NET_Core_Training.Models
+namespace dotNetCore.Models
 {
     public class User
     {

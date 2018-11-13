@@ -1,14 +1,13 @@
 ﻿using System;
-using NET_Core_Training.Models;
 
-namespace NET_Core_Training
+namespace dotNetCore.Models
 {
     class Program
     {
         static void Main(string[] args)
-        {
-            CalcOperations CalcOperations = new CalcOperations();
-            CalcOperations.CreateEvent();
+        {             
+          LINQTest NewTest=new LINQTest();
+          NewTest.QueryTesting();
         }
     }
 }
