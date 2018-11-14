@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace dotNetCore.Models
 {
@@ -6,6 +7,7 @@ namespace dotNetCore.Models
     {
         public string Email { get; private set; }
         public string Password { get; private set; }
+        [UserPassword(4)]
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; private set; }
@@ -18,7 +20,7 @@ namespace dotNetCore.Models
         {
             SetEmail(email);
             SetPassword(password);
-            CreatedAt=DateTime.Now;
+            CreatedAt = DateTime.Now;
         }
 
         private void SetEmail(string email)
@@ -98,16 +100,16 @@ namespace dotNetCore.Models
 
         public void PurchaseOrder(Order order)
         {
-            if(!IsActive)
+            if (!IsActive)
             {
                 throw new Exception("Only active user can purchase an order.");
             }
-            if(order.TotalPrice>Founds)
+            if (order.TotalPrice > Founds)
             {
                 throw new Exception("You don't have enough money.");
             }
             order.Pucharse();
-            Founds-=order.TotalPrice;
+            Founds -= order.TotalPrice;
         }
         private void UpdateProperty()
         {
