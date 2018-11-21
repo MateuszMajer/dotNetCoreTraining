@@ -1,6 +1,6 @@
 {
   "ProjectFilePath": "c:\\Users\\SysAdmin\\VisualStudioProjects\\NET Core Training\\NET Core Training\\Tests\\Tests.csproj",
-  "TargetFramework": "netcoreapp2.1",
+  "TargetFramework": "netcoreapp2.0",
   "TagHelpers": [],
   "Configuration": {
     "ConfigurationName": "UnsupportedRazor",
