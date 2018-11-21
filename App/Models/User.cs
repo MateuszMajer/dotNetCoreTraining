@@ -21,7 +21,7 @@ namespace dotNetCore.Models
             CreatedAt=DateTime.Now;
         }
 
-        private void SetEmail(string email)
+        public void SetEmail(string email)
         {
             if (string.IsNullOrWhiteSpace(email))
             {
@@ -35,7 +35,7 @@ namespace dotNetCore.Models
             UpdateProperty();
         }
 
-        private void SetPassword(string password)
+        public void SetPassword(string password)
         {
             if (string.IsNullOrWhiteSpace(password))
             {

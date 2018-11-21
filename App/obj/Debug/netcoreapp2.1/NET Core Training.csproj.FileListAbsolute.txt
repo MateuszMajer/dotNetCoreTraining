@@ -20,3 +20,14 @@ C:\Users\mmajer\VisualStudioProjects\dotNETCore\obj\Debug\netcoreapp2.1\NET Core
 C:\Users\mmajer\VisualStudioProjects\dotNETCore\obj\Debug\netcoreapp2.1\NET Core Training.AssemblyInfo.cs
 C:\Users\mmajer\VisualStudioProjects\dotNETCore\obj\Debug\netcoreapp2.1\NET Core Training.dll
 C:\Users\mmajer\VisualStudioProjects\dotNETCore\obj\Debug\netcoreapp2.1\NET Core Training.pdb
+C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\App\bin\Debug\netcoreapp2.1\NET Core Training.deps.json
+C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\App\bin\Debug\netcoreapp2.1\NET Core Training.runtimeconfig.json
+C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\App\bin\Debug\netcoreapp2.1\NET Core Training.runtimeconfig.dev.json
+C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\App\bin\Debug\netcoreapp2.1\NET Core Training.dll
+C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\App\bin\Debug\netcoreapp2.1\NET Core Training.pdb
+C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\App\obj\Debug\netcoreapp2.1\NET Core Training.csprojAssemblyReference.cache
+C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\App\obj\Debug\netcoreapp2.1\NET Core Training.csproj.CoreCompileInputs.cache
+C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\App\obj\Debug\netcoreapp2.1\NET Core Training.AssemblyInfoInputs.cache
+C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\App\obj\Debug\netcoreapp2.1\NET Core Training.AssemblyInfo.cs
+C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\App\obj\Debug\netcoreapp2.1\NET Core Training.dll
+C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\App\obj\Debug\netcoreapp2.1\NET Core Training.pdb

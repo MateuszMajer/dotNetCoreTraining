@@ -1641,6 +1641,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "NET Core Training/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/NET Core Training.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NET Core Training.dll": {}
+        }
       }
     }
   },
@@ -5629,12 +5642,18 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "NET Core Training/1.0.0": {
+      "type": "project",
+      "path": "../App/NET Core Training.csproj",
+      "msbuildProject": "../App/NET Core Training.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NET.Test.Sdk >= 15.7.2",
       "Microsoft.NETCore.App >= 2.1.0",
+      "NET Core Training >= 1.0.0",
       "NUnit3TestAdapter >= 3.10.0",
       "nunit >= 3.10.1"
     ]
@@ -5668,7 +5687,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\SysAdmin\\VisualStudioProjects\\NET Core Training\\NET Core Training\\App\\NET Core Training.csproj": {
+              "projectPath": "C:\\Users\\SysAdmin\\VisualStudioProjects\\NET Core Training\\NET Core Training\\App\\NET Core Training.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
