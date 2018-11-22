@@ -8,8 +8,6 @@ namespace dotNetCore.Models
     {
         static void Main(string[] args)
         {
-            Pararellism Pararell = new Pararellism();
-            Pararell.Test();
         }
     }
 }

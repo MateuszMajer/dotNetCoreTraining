@@ -1,0 +1,15 @@
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\obj\Debug\netcoreapp2.0\Tests.csprojAssemblyReference.cache
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\obj\Debug\netcoreapp2.0\Tests.csproj.CoreCompileInputs.cache
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\obj\Debug\netcoreapp2.0\Tests.AssemblyInfoInputs.cache
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\obj\Debug\netcoreapp2.0\Tests.AssemblyInfo.cs
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.0\Mono.Cecil.dll
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.0\Tests.deps.json
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.0\Tests.runtimeconfig.json
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.0\Tests.runtimeconfig.dev.json
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.0\Tests.dll
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.0\Tests.pdb
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\obj\Debug\netcoreapp2.0\Tests.dll
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\obj\Debug\netcoreapp2.0\Tests.pdb
