@@ -9,3 +9,21 @@ C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\Tests
 C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfo.cs
 C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\Tests\obj\Debug\netcoreapp2.1\Tests.dll
 C:\Users\SysAdmin\VisualStudioProjects\NET Core Training\NET Core Training\Tests\obj\Debug\netcoreapp2.1\Tests.pdb
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.1\Tests.deps.json
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.json
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.dev.json
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.1\Tests.dll
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.1\Tests.pdb
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.1\NET Core Training.dll
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\bin\Debug\netcoreapp2.1\NET Core Training.pdb
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\obj\Debug\netcoreapp2.1\Tests.csprojAssemblyReference.cache
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\obj\Debug\netcoreapp2.1\Tests.csproj.CoreCompileInputs.cache
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfoInputs.cache
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfo.cs
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\obj\Debug\netcoreapp2.1\Tests.csproj.CopyComplete
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\obj\Debug\netcoreapp2.1\Tests.dll
+C:\Users\mmajer\VisualStudioProjects\dotNETCore\Tests\obj\Debug\netcoreapp2.1\Tests.pdb
