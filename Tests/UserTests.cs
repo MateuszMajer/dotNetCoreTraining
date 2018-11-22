@@ -1,33 +1,36 @@
 using System;
+using System.Net;
+using System.Net.Http;
+using System.Threading.Tasks;
 using dotNetCore.Models;
+using FluentAssertions;
 using NUnit.Framework;
 
 namespace Testing
 {
-  //  [TestFixture]
+    [TestFixture]
     public class UserTests
     {
-        [Test]
-        public void changing_email_should_succeed()
+        public HttpClient httpClient;
+
+        [SetUp]
+        public void Setup()
         {
-            //Arrange
-            var user = new User("mateuszmajer1992@gmail.com", "secretmmmmmmmmmmmmmmmmmm");
-            //Act
-            user.SetEmail("mateuszmajer1992@gmail.com");
-            //Assert
-            Assert.AreSame(user.Email, "mateuszmajer1992@gmail.com");
+            httpClient = new HttpClient();
+        }
+        [TearDown]
+        public void End()
+        {
+            httpClient.Dispose();
         }
 
         [Test]
-        public void providing_empty_password_should_fail()
+        public async Task http_response_should_204_status_code()
         {
-            //Arrange
-            var user = new User("mateuszmajer1992@gmail.com", "secretmmmmmmmmmmmmmmmmmm");
-            //Act
-            var exeption = Assert.Throws<Exception>(() => user.SetPassword("short"));
-            //Assert
-            Assert.NotNull(exeption);
-            Assert.IsTrue(exeption.Message.Equals("Entered password is too short."));
+            var response=await httpClient.GetAsync("http://httpstat.us/204");
+            Assert.AreEqual(response.StatusCode,HttpStatusCode.NoContent);
         }
+
+     
     }
 }
